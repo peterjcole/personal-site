@@ -1,26 +1,14 @@
+*.log
 .DS_Store
+.sass-cache
+build
+lib-cov
 node_modules
-/dist
-
-/tests/e2e/videos/
-/tests/e2e/screenshots/
-
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+vendor
+test/html-report
+test/lcov-report
+test/lcov.info
+test/fixtures/watching-css-out-01
+test/fixtures/watching-css-out-02
+coverage
+package-lock.json

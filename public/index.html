@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Peter Cole</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./favicon.ico">
+        <script src="https://kit.fontawesome.com/fdd76d0048.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title">Peter Cole</h2>
+                    <h2 class="subtitle">
+                        <span class="icon">
+                          <a href="http://github.com/peterjcole">
+                            <i class="fab fa-github" title="github"></i>
+                          </a>
+                        </span>
+                        <span class="icon">
+                          <a href="https://www.linkedin.com/in/peterjcole/">
+                            <i class="fab fa-linkedin" title="linkedin"></i>
+                          </a>
+                        </span>
+                        <span>
+                          <a href="mailto:peter@petercole.net"><i class="fa fa-at" title="email"></i> peter@petercole.net</a>
+                        </span>
+                    </h2>
+                    <h2 class="subtitle">
+                        <span>
+                          <a href="http://plot.fit">
+                            <i class="fa fa-map" title="plot"></i>
+                              plot
+                          </a>
+                        </span>
+                        <span>
+                          <a href="https://catfacts.now.sh/">
+                            <i class="fa fa-cat" title="cat facts"></i>
+                              cat facts
+                          </a>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
