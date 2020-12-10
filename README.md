@@ -1,6 +1,6 @@
 # personal-site
-My personal website. Not a lot here.z
+My personal website. Not a lot here.
 
-http://petercole.net
+https://petercole.net
 
 
