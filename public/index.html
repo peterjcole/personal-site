@@ -1,49 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Software Engineer, London, UK">
-  <title>Peter Cole</title>
+  <meta name="description" content="Peter Cole - Frontend Engineer, London, UK">
+  <title>Peter Cole - Frontend Engineer, London, UK</title>
   <link rel="stylesheet" href="./styles.css">
-  <link rel="icon" href="./favicon.ico">
-  <script src="https://kit.fontawesome.com/fdd76d0048.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Heebo:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="hero is-fullheight">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">Peter Cole</h1>
-      <div class="subtitle">
-        <span class="icon">
-          <a href="http://github.com/peterjcole">
-            <i class="fab fa-github" title="github"></i>
-          </a>
-        </span>
-        <span class="icon">
-          <a href="https://www.linkedin.com/in/peterjcole/">
-            <i class="fab fa-linkedin" title="linkedin"></i>
-          </a>
-        </span>
-        <a href="mailto:peter@petercole.net"><i class="fa fa-at"></i> peter@petercole.net</a>
-      </div>
-      <div class="subtitle">
-        <a href="http://plot.fit">
-          <i class="fa fa-map"></i>
-            plot
-        </a>
-        <a href="https://catfacts.vercel.app/">
-          <i class="fa fa-cat"></i>
-            cat facts
-        </a>
-        <a href="https://findseater.vercel.app/">
-          <i class="fa fa-train"></i>
-          findseater
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="wrapper">
+  <section class="content">
+    <h1>Peter Cole</h1>
+    <p>
+      Hello! I am a Frontend Engineer based in London, UK. You can find me at the links below:
+    </p>
+    <nav aria-labelledby="contact-header">
+      <h2 id="contact-header">Contact</h2>
+      <ul class="nav-list">
+        <li>
+          <a class="main-link" href="http://github.com/peterjcole">Github:</a> <code>peterjcole</code>
+        </li>
+        <li>
+          <a class="main-link" href="https://www.linkedin.com/in/peterjcole/">Linkedin:</a> <code>peterjcole</code>
+        </li>
+        <li>
+          <a class="main-link" href="https://www.twitter.com/peterjcole_">Twitter:</a> <code>peterjcole_</code>
+        </li>
+        <li>
+          <a class="main-link" href="mailto:peter@petercole.net">Email:</a> <code>peter@petercole.net</code>
+        </li>
+      </ul>
+    </nav>
+    <nav aria-labelledby="sideprojects-header">
+      <h2 id="sideprojects-header">Personal projects</h2>
+      <ul class="nav-list">
+        <li>
+          <a class="side-project-link" href="https://www.findseater.co.uk">findseater.co.uk 🚃</a> Southeastern trains seat finder
+        </li>
+        <li>
+          <a class="side-project-link" href="https://plot.fit">plot.fit 🗺</a> OS Maps meet Strava activities
+        </li>
+        <li>
+          <a class="side-project-link" href="https://thiscatexists.com">this cat exists (.com) 🐈</a> (collaboration): Competitor to <a
+          href="https://thiscatdoesnotexist.com">thiscatdoesnotexist.com</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</div>
 <!-- Cloudflare Web Analytics -->
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token": "72b77fc2b171416f8ff7ae9ad651746d"}'>
